@@ -1,0 +1,3 @@
+vendor/
+.idea/
+src/Classes/Config_interface.php

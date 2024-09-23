@@ -1,0 +1,27 @@
+{
+  "name": "nduflot/2024-05-27-php-avance",
+  "description": "Utilisation de composer pour la formation PHP Avancé 2024-05-27",
+  "type": "project",
+  "license": "Creative Common",
+  "authors": [
+    {
+      "name": "Nicolas Duflot"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "doctrine/collections": "^2.2",
+    "twbs/bootstrap": "^5.3",
+    "twbs/bootstrap-icons": "^1.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/Classes",
+      "Utils\\": "src/Classes",
+      "Media\\": "src/Classes",
+      "Oeuvres\\": "src/Classes/Mediatheque",
+      "Wargame\\": "src/Classes/Wargame",
+      "Utrain\\": "src/Classes"
+    }
+  }
+}
